@@ -2,7 +2,7 @@ module "s3-bucket" {
   source  = "app.terraform.io/jh-training/s3-bucket/aws"
   version = "2.2.0"
   # insert required variables here
-  bucket = "my-s3-bucket"
+  bucket = "jh4-terraform-aws-my-s3-bucket"
   acl    = "private"
 
   versioning = {
